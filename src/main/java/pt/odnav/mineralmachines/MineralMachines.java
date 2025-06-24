@@ -14,6 +14,8 @@ public class MineralMachines {
     public MineralMachines() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // TODO: Registar blocos, itens, creative tabs, etc.
         LOGGER.info("Mineral Machines iniciado!");
     }

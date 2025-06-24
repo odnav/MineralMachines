@@ -1,6 +1,12 @@
+pluginManagement {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
 plugins {
-    id 'eclipse'
-    id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
 }
 
@@ -35,6 +41,11 @@ minecraft {
             }
         }
     }
+}
+
+repositories {
+    maven { url = 'https://maven.minecraftforge.net' }
+    mavenCentral()
 }
 
 dependencies {

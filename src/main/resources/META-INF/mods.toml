@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="mineralmachines"
+version="1.0.0"
+displayName="Mineral Machines"
+authors="Odnav"
+description='''
+Mod com máquinas de múltiplos tiers que processam minérios, usando RF e progressão tecnológica.
+'''

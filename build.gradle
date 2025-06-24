@@ -6,10 +6,10 @@ group = 'pt.odnav.mineralmachines'
 version = '1.0.0'
 archivesBaseName = 'mineralmachines'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 minecraft {
-    mappings channel: 'official', version: '1.21.1'
+    mappings channel: 'official', version: '1.21.6'
     copyIdeResources = true
 
     runs {
@@ -41,7 +41,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.21.1-47.0.0'
+    minecraft 'net.minecraftforge:forge:1.21.6-56.0.8'
 }
 
 tasks.withType(JavaCompile).configureEach {
